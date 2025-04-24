@@ -17,13 +17,15 @@
         </header>
 
         <main>
-
-            <form id="poem-generator">
-                <input type="text" placeholder="Enter the topic of the French poem" autofocus required
-                    class="instructions" autocomplete="off" id="user-instructions" />
-                <input type="submit" class="submit-button" />
-            </form>
-            <div class="poem" id="poem">
+            <div class="form-container">
+                <form id="poem-generator">
+                    <input type="text" placeholder="Enter the topic of the French poem" autofocus required
+                        class="instructions" autocomplete="off" id="user-instructions" />
+                    <input type="submit" class="submit-button" />
+                </form>
+                <div class="hint">i.e: Paris, flowers, or cheese</div>
+            </div>
+            <div class="poem hidden" id="poem">
             </div>
 
         </main>
